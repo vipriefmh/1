@@ -75,10 +75,4 @@ body {
     .button a{
         font-size: .5rem;
     }
-   .highlight {
-    color: red !important; /* Pastikan warna berubah */
-    font-weight: bold;
    }
-}
-
-}
