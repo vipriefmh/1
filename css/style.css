@@ -75,4 +75,23 @@ body {
     .button a{
         font-size: .5rem;
     }
+    body {
+  font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+   
+}
+
+.credit {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: red !important; /* Pastikan warna berubah */
+    font-weight: bold;
+}
 }
