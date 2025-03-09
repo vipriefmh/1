@@ -9,6 +9,17 @@
     <title>flowers</title>
 </head>
 <body class="container">
+    <audio id="bgm" autoplay loop>
+    <source src="Audio.mp3" type="audio/mp3">
+</audio>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var audio = document.getElementById("bgm");
+        audio.play().catch(error => {
+            console.log("Autoplay dicegah oleh browser, perlu interaksi pengguna.");
+        });
+    });
+</script>
   <!-- Pembuat code: https://codepen.io/mdusmanansari/pen/BamepLe -->
     <div class="night"></div>
     <div class="flowers">
