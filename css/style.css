@@ -60,6 +60,17 @@ body {
     font-size: 1rem;
     color: #111;
 }
+/* Credit */
+.credit {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
 
 @media screen and (max-width:574px){
     .greetings{
@@ -76,12 +87,10 @@ body {
         font-size: .5rem;
     }
     .credit {
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: bold;
 }
-
 .highlight {
-    color: red !important; /* Pastikan warna berubah */
     font-weight: bold;
 }
    }
