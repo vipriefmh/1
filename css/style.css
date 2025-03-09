@@ -63,12 +63,12 @@ body {
 /* Credit */
 .credit {
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 1.5rem;
     color: #666;
 }
 
 .highlight {
-    color: red;
+    color: #FFD700;
     font-weight: bold;
 }
 
@@ -87,7 +87,7 @@ body {
         font-size: .5rem;
     }
     .credit {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .highlight {
