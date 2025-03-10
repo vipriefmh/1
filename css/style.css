@@ -61,17 +61,18 @@ body {
     color: #111;
 }
 .top-button {
+.top-button {
     position: fixed;
-    top: 50%; /* Tempatkan tombol di tengah secara vertikal */
-    left: 50%; /* Tempatkan tombol di tengah secara horizontal */
-    transform: translate(-50%, -50%); /* Pusatkan tombol secara sempurna */
-    padding: 10px 20px;
+    top: 20px; /* Tempatkan tombol di bagian atas layar */
+    right: 20px; /* Tempatkan tombol di bagian kanan layar */
+    padding: 20px 35px; /* Perbesar ukuran tombol */
     background-color: #4CAF50; /* Warna latar belakang tombol */
     color: white; /* Warna teks tombol */
+    font-size: 1.5rem; /* Perbesar ukuran teks tombol */
     border: none; /* Menghilangkan border */
     border-radius: 5px; /* Membuat sudut tombol melengkung */
     cursor: pointer; /* Mengubah cursor saat hover */
-    z-index: 10; /* Pastikan tombol berada di atas elemen flower */
+    z-index: 1000; /* Pastikan tombol berada di atas elemen lain */
 }
 
 .top-button:hover {
