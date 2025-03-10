@@ -66,14 +66,16 @@ body {
 
 .flower-button {
     position: absolute;
-    top: 100px; /* Sesuaikan posisi tombol dengan mengubah nilai top dan left */
-    left: 10px;
+    top: 10px; /* Sesuaikan posisi tombol dengan mengubah nilai top dan left */
+    left: 50%;
+    transform: translateX(-50%);
     padding: 10px 20px;
     background-color: #4CAF50; /* Warna latar belakang tombol */
     color: white; /* Warna teks tombol */
     border: none; /* Menghilangkan border */
     border-radius: 5px; /* Membuat sudut tombol melengkung */
     cursor: pointer; /* Mengubah cursor saat hover */
+    z-index: 1000; /* Pastikan tombol berada di atas elemen lain */
 }
 
 .flower-button:hover {
