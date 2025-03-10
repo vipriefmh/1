@@ -60,29 +60,10 @@ body {
     font-size: 1rem;
     color: #111;
 }
-:root {
-    --btn-bg-color: #4CAF50;
-    --btn-hover-bg-color: #45a049;
-    --btn-text-color: #ffffff;
-}
-
 .top-button {
-    position: fixed;
-    top: 20px; /* Place the button at the top of the screen */
-    right: 20px; /* Place the button on the right side of the screen */
-    padding: 20px 35px; /* Increase button size */
-    background-color: var(--btn-bg-color); /* Button background color */
-    color: var(--btn-text-color); /* Button text color */
-    font-size: 1.5rem; /* Increase button text size */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Make button corners rounded */
-    cursor: pointer; /* Change cursor on hover */
-    z-index: 1000; /* Ensure the button is above other elements */
-    transition: background-color 0.3s ease; /* Smooth hover transition */
-}
-
-.top-button:hover {
-    background-color: var(--btn-hover-bg-color); /* Button color on hover */
+    text-decoration: none;
+    font-size: 1rem;
+    color: #111;
 }
 /* Credit */
 .credit {
@@ -108,6 +89,9 @@ body {
     }
     
     .button a{
+        font-size: .5rem;
+    }
+    .top-button {
         font-size: .5rem;
     }
     .credit {
