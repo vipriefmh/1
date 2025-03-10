@@ -60,22 +60,29 @@ body {
     font-size: 1rem;
     color: #111;
 }
+:root {
+    --btn-bg-color: #4CAF50;
+    --btn-hover-bg-color: #45a049;
+    --btn-text-color: #ffffff;
+}
+
 .top-button {
     position: fixed;
-    top: 20px; /* Tempatkan tombol di bagian atas layar */
-    right: 20px; /* Tempatkan tombol di bagian kanan layar */
-    padding: 20px 35px; /* Perbesar ukuran tombol */
-    background-color: #4CAF50; /* Warna latar belakang tombol */
-    color: white; /* Warna teks tombol */
-    font-size: 1.5rem; /* Perbesar ukuran teks tombol */
-    border: none; /* Menghilangkan border */
-    border-radius: 5px; /* Membuat sudut tombol melengkung */
-    cursor: pointer; /* Mengubah cursor saat hover */
-    z-index: 1000; /* Pastikan tombol berada di atas elemen lain */
+    top: 20px; /* Place the button at the top of the screen */
+    right: 20px; /* Place the button on the right side of the screen */
+    padding: 20px 35px; /* Increase button size */
+    background-color: var(--btn-bg-color); /* Button background color */
+    color: var(--btn-text-color); /* Button text color */
+    font-size: 1.5rem; /* Increase button text size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Make button corners rounded */
+    cursor: pointer; /* Change cursor on hover */
+    z-index: 1000; /* Ensure the button is above other elements */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
 }
 
 .top-button:hover {
-    background-color: #45a049; /* Warna tombol saat dihover */
+    background-color: var(--btn-hover-bg-color); /* Button color on hover */
 }
 /* Credit */
 .credit {
