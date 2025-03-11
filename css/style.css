@@ -60,11 +60,6 @@ body {
     font-size: 1rem;
     color: #111;
 }
-.top-button {
-    text-decoration: none;
-    font-size: 1rem;
-    color: #111;
-}
 /* Credit */
 .credit {
     margin-top: 20px;
@@ -91,9 +86,7 @@ body {
     .button a{
         font-size: .5rem;
     }
-    .top-button {
-        font-size: .5rem;
-    }
+    
     .credit {
     font-size: 1.5rem;
     font-weight: bold;
