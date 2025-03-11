@@ -23,7 +23,7 @@ body {
     position: fixed;
     top: 20px; /* Tempatkan tombol di bagian atas layar */
     right: 20px; /* Tempatkan tombol di bagian kanan layar */
-    padding: 15px 30px; /* Perbesar ukuran tombol */
+    padding: 10px 25px; /* Perbesar ukuran tombol */
     background-color: #4CAF50; /* Warna latar belakang tombol */
     color: white; /* Warna teks tombol */
     font-size: 1.2rem; /* Perbesar ukuran teks tombol */
